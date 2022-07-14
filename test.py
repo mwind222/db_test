@@ -9,3 +9,5 @@ speed, gust, direction, pressure, temperature, timestamp = 5.5, 5.6, 33, 1020, 2
 print(speed, gust, direction, pressure, temperature, timestamp)
 
 cursor.executemany("insert into db values (?,?,?,?,?,?)", [speed, gust, direction, pressure, temperature, timestamp])
+print("aaa")
+
