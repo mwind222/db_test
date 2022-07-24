@@ -1,6 +1,7 @@
 import sqlite3 as sl
 con=sl.connect('test.db')
-cursor = con.cursor()
+fdgd:x
+sor = con.cursor()
 
 
 cursor.execute("CREATE TABLE db (id INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT, speed FLOAT, gust FLOAT, direction FLOAT, pressure FLOAT, temperature FLOAT, timestamp STRING)")
@@ -10,4 +11,21 @@ print(speed, gust, direction, pressure, temperature, timestamp)
 
 cursor.executemany("insert into db values (?,?,?,?,?,?)", [speed, gust, direction, pressure, temperature, timestamp])
 print("aaa")
+print("q")
+:x
+:quit
+:
+    q
+
+    
+
+    :wq
+q
+
+
+
+
+
+
+
 
