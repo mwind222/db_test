@@ -13,15 +13,6 @@ cursor.executemany("insert into db values (?,?,?,?,?,?)", [speed, gust, directio
 print("aaa")
 print("q")
 :x
-:quit
-:
-    q
-
-    
-
-    :wq
-q
-
 
 
 
